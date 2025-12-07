@@ -1,0 +1,16 @@
+{
+  "command": "node ./server/index.js",
+  "build_path": "./build",
+  "stack": "node20",
+  "env_variables": {},
+  "memory": 256,
+  "scripts": {
+    "preserve": "cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/",
+    "postserve": "node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app",
+    "predeploy": "cd photo-store-app && npm run build && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/",
+    "postdeploy": "node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app"
+  },
+  "raw": {},
+  "catalyst_auth": true,
+  "login_redirect": "/index.html"
+}

@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "10593000000171004",
+      "name": "PhotoStoreApp",
+      "domain": {
+        "id": "10112775529",
+        "name": "photostoreapp-777525758.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "777525758",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
