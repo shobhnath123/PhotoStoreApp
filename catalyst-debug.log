@@ -1,270 +1,31 @@
-[debug] [2025-12-06T12:09:50.726Z] : 
-[debug] [2025-12-06T12:09:50.730Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T12:09:50.730Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
-[debug] [2025-12-06T12:09:50.730Z] : CLI Version:  1.21.0
-[debug] [2025-12-06T12:09:50.731Z] : Platform:     win32
-[debug] [2025-12-06T12:09:50.736Z] : Node Version: v24.4.1
-[debug] [2025-12-06T12:09:50.736Z] : Time:         Sat Dec 06 2025 17:39:50 GMT+0530 (India Standard Time)
-[debug] [2025-12-06T12:09:50.738Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T12:09:50.738Z] : 
-[debug] [2025-12-06T12:09:51.896Z] : > authorizing via signed-in user option
-[debug] [2025-12-06T12:09:51.897Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
-[debug] [2025-12-06T12:09:51.955Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
+[debug] [2025-12-15T18:52:38.899Z] : 
+[debug] [2025-12-15T18:52:38.902Z] : ----------------------------------------------------------------------
+[debug] [2025-12-15T18:52:38.903Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-12-15T18:52:38.903Z] : CLI Version:  1.21.0
+[debug] [2025-12-15T18:52:38.903Z] : Platform:     win32
+[debug] [2025-12-15T18:52:38.903Z] : Node Version: v24.4.1
+[debug] [2025-12-15T18:52:38.903Z] : Time:         Tue Dec 16 2025 00:22:38 GMT+0530 (India Standard Time)
+[debug] [2025-12-15T18:52:38.904Z] : ----------------------------------------------------------------------
+[debug] [2025-12-15T18:52:38.904Z] : 
+[debug] [2025-12-15T18:52:39.703Z] : > authorizing via signed-in user option
+[debug] [2025-12-15T18:52:39.703Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-12-15T18:52:39.751Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
 
-[debug] [2025-12-06T12:09:53.679Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:09:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2025-12-15T18:52:40.768Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 15 Dec 2025 18:52:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[debug] [2025-12-06T12:09:53.692Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
+[debug] [2025-12-15T18:52:40.773Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
 
-[debug] [2025-12-06T12:09:54.237Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:09:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+[debug] [2025-12-15T18:52:41.068Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 15 Dec 2025 18:52:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
 
-[info] [2025-12-06T12:09:54.273Z] : 
-[info] [2025-12-06T12:09:54.274Z] : Executing predeploy script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-06T12:09:54.274Z] : Executing command > cd photo-store-app && npm run build && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-06T12:09:54.275Z] : > cd photo-store-app && npm run build && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[debug] [2025-12-06T12:12:05.796Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/appsail/upsert 
-
-[debug] [2025-12-06T12:12:57.031Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:12:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[info] [2025-12-06T12:12:57.114Z] : 
-[info] [2025-12-06T12:12:57.140Z] : Executing postdeploy script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-06T12:12:57.141Z] : Executing command > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[info] [2025-12-06T12:12:57.176Z] : > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[info] [2025-12-06T12:13:13.312Z] : 
-[info] [2025-12-06T12:13:13.326Z] : i AppSail(photo-store-app): URL => https://photo-store-app-10112775529.development.catalystappsail.com
-[info] [2025-12-06T12:13:13.333Z] : √ AppSail(photo-store-app): deploy successful
-[info] [2025-12-06T12:13:13.397Z] : 
-[info] [2025-12-06T12:13:13.399Z] : √ Catalyst deploy complete!
-[debug] [2025-12-06T12:13:13.400Z] : NO ERRORS REGISTERED
-[debug] [2025-12-06T12:13:13.413Z] : EXEC ENDED with event: deploy, message: success
-[debug] [2025-12-06T12:13:13.415Z] : TOTAL DURATION OF COMMAND EXEC : 201549
-[debug] [2025-12-06T12:13:13.910Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
-<request body omitted>
-
-[debug] [2025-12-06T12:13:21.315Z] : <<<< HTTP RESPONSE : 400
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:13:13 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T12:13:21.315Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
-
-[debug] [2025-12-06T12:13:21.326Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
-[debug] [2025-12-06T12:14:43.073Z] : 
-[debug] [2025-12-06T12:14:43.076Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T12:14:43.076Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
-[debug] [2025-12-06T12:14:43.077Z] : CLI Version:  1.21.0
-[debug] [2025-12-06T12:14:43.077Z] : Platform:     win32
-[debug] [2025-12-06T12:14:43.077Z] : Node Version: v24.4.1
-[debug] [2025-12-06T12:14:43.077Z] : Time:         Sat Dec 06 2025 17:44:43 GMT+0530 (India Standard Time)
-[debug] [2025-12-06T12:14:43.078Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T12:14:43.078Z] : 
-[debug] [2025-12-06T12:14:44.089Z] : > authorizing via signed-in user option
-[debug] [2025-12-06T12:14:44.090Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
-[debug] [2025-12-06T12:14:44.142Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
-
-[debug] [2025-12-06T12:14:45.824Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:14:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T12:14:45.829Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
-
-[debug] [2025-12-06T12:14:46.386Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 12:14:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T12:14:47.652Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2025-12-06T12:14:47.699Z] : No basic functions to add
-[info] [2025-12-06T12:14:47.710Z] : 
-[info] [2025-12-06T12:14:47.713Z] : Executing AppSail [PRESERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-06T12:14:47.713Z] : Executing command > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-06T12:14:47.714Z] : > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-06T12:15:56.608Z] : 
-[info] [2025-12-06T12:15:56.609Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2025-12-06T12:15:56.610Z] : i photo-store-app: http://localhost:3001
-[info] [2025-12-06T12:15:56.610Z] : 
-[debug] [2025-12-06T14:01:03.293Z] : 
-[debug] [2025-12-06T14:01:03.297Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T14:01:03.297Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
-[debug] [2025-12-06T14:01:03.298Z] : CLI Version:  1.21.0
-[debug] [2025-12-06T14:01:03.298Z] : Platform:     win32
-[debug] [2025-12-06T14:01:03.299Z] : Node Version: v24.4.1
-[debug] [2025-12-06T14:01:03.299Z] : Time:         Sat Dec 06 2025 19:31:03 GMT+0530 (India Standard Time)
-[debug] [2025-12-06T14:01:03.299Z] : ----------------------------------------------------------------------
-[debug] [2025-12-06T14:01:03.299Z] : 
-[debug] [2025-12-06T14:01:16.596Z] : > authorizing via signed-in user option
-[debug] [2025-12-06T14:01:16.597Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
-[debug] [2025-12-06T14:01:16.764Z] : > refreshing access token <
-[debug] [2025-12-06T14:01:16.766Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
-<request body omitted>
-
-[debug] [2025-12-06T14:01:17.715Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 14:01:10 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T14:01:17.731Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
-
-[debug] [2025-12-06T14:01:18.633Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 14:01:11 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T14:01:18.636Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
-
-[debug] [2025-12-06T14:01:18.937Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sat, 06 Dec 2025 14:01:11 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-06T14:01:30.472Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2025-12-06T14:01:30.480Z] : No basic functions to add
-[info] [2025-12-06T14:01:30.481Z] : 
-[info] [2025-12-06T14:01:30.482Z] : Executing AppSail [PRESERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-06T14:01:30.482Z] : Executing command > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-06T14:01:30.482Z] : > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-06T14:06:27.607Z] : 
-[info] [2025-12-06T14:06:27.608Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2025-12-06T14:06:27.609Z] : i photo-store-app: http://localhost:3001
-[info] [2025-12-06T14:06:27.610Z] : 
-[debug] [2025-12-07T03:38:25.380Z] : > refreshing access token <
-[debug] [2025-12-07T03:38:25.389Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
-<request body omitted>
-
-[debug] [2025-12-07T03:38:26.333Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 03:38:18 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[info] [2025-12-07T03:52:21.263Z] : Shutting down server
-[info] [2025-12-07T03:52:21.267Z] : 
-[info] [2025-12-07T03:52:21.269Z] : √ Shutdown complete
-[debug] [2025-12-07T03:52:21.270Z] : NO ERRORS REGISTERED
-[debug] [2025-12-07T03:52:21.271Z] : EXEC ENDED with event: serve, message: success
-[debug] [2025-12-07T03:52:21.271Z] : TOTAL DURATION OF COMMAND EXEC : 49864905
-[info] [2025-12-07T03:52:21.327Z] : 
-[info] [2025-12-07T03:52:21.328Z] : Executing AppSail [POSTSERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-07T03:52:21.328Z] : Executing command > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[info] [2025-12-07T03:52:21.329Z] : > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[error] [2025-12-07T03:52:21.942Z] : uncaughtException: The script exited with code greater than 0 or an error
-CatalystError: The script exited with code greater than 0 or an error
-    at executeCommand (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\execute-script.js:60:15)
-    at executeHook (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:34:41)
-    at ChildProcess.<anonymous> (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:177:13)
-    at Object.onceWrapper (node:events:622:26)
-    at ChildProcess.emit (node:events:519:35)
-    at cp.emit (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\cross-spawn\lib\enoent.js:34:29)
-    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
-[info] [2025-12-07T03:52:21.976Z] : 
-[error] [2025-12-07T03:52:21.976Z] : × Error: The script AppSail [POSTSERVE] [photo-store-app] exited with the exit code greater than 0 or with an error.
-[debug] [2025-12-07T03:52:21.977Z] : Error Stack: CatalystError: The script exited with code greater than 0 or an error
-    at executeCommand (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\execute-script.js:60:15)
-    at executeHook (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:34:41)
-    at ChildProcess.<anonymous> (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:177:13)
-    at Object.onceWrapper (node:events:622:26)
-    at ChildProcess.emit (node:events:519:35)
-    at cp.emit (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\cross-spawn\lib\enoent.js:34:29)
-    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
-[debug] [2025-12-07T03:52:21.977Z] : Original Error: Error: {"status":3221225786,"signal":null,"output":[null,null,null],"pid":12988,"stdout":null,"stderr":null,"error":null}
-    at executeCommand (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\execute-script.js:62:23)
-    at executeHook (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:34:41)
-    at ChildProcess.<anonymous> (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:177:13)
-    at Object.onceWrapper (node:events:622:26)
-    at ChildProcess.emit (node:events:519:35)
-    at cp.emit (C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\cross-spawn\lib\enoent.js:34:29)
-    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
-[debug] [2025-12-07T03:52:21.977Z] : Error Status: 500
-[info] [2025-12-07T03:52:21.977Z] : 
-[error] [2025-12-07T03:52:21.978Z] : Execution Info: 
-{
-  "status": 3221225786,
-  "signal": null,
-  "output": [
-    null,
-    null,
-    null
-  ],
-  "pid": 12988,
-  "stdout": null,
-  "stderr": null,
-  "error": null
-}
-[info] [2025-12-07T03:52:21.979Z] : 
-[error] [2025-12-07T03:52:21.980Z] : REF: https://www.zoho.com/catalyst/help/scripts.html#Run
-[debug] [2025-12-07T03:53:22.093Z] : 
-[debug] [2025-12-07T03:53:22.097Z] : ----------------------------------------------------------------------
-[debug] [2025-12-07T03:53:22.097Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
-[debug] [2025-12-07T03:53:22.098Z] : CLI Version:  1.21.0
-[debug] [2025-12-07T03:53:22.098Z] : Platform:     win32
-[debug] [2025-12-07T03:53:22.099Z] : Node Version: v24.4.1
-[debug] [2025-12-07T03:53:22.099Z] : Time:         Sun Dec 07 2025 09:23:22 GMT+0530 (India Standard Time)
-[debug] [2025-12-07T03:53:22.099Z] : ----------------------------------------------------------------------
-[debug] [2025-12-07T03:53:22.099Z] : 
-[debug] [2025-12-07T03:53:36.316Z] : > authorizing via signed-in user option
-[debug] [2025-12-07T03:53:36.317Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
-[debug] [2025-12-07T03:53:36.490Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
-
-[debug] [2025-12-07T03:53:41.121Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 03:53:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-07T03:53:41.126Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
-
-[debug] [2025-12-07T03:53:41.587Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 03:53:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-07T03:53:52.712Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2025-12-07T03:53:52.720Z] : No basic functions to add
-[info] [2025-12-07T03:53:52.722Z] : 
-[info] [2025-12-07T03:53:52.722Z] : Executing AppSail [PRESERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-07T03:53:52.722Z] : Executing command > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-07T03:53:52.722Z] : > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-07T03:56:37.807Z] : 
-[info] [2025-12-07T03:56:37.808Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2025-12-07T03:56:37.809Z] : i photo-store-app: http://localhost:3001
-[info] [2025-12-07T03:56:37.809Z] : 
-[debug] [2025-12-07T04:18:06.051Z] : 
-[debug] [2025-12-07T04:18:06.053Z] : ----------------------------------------------------------------------
-[debug] [2025-12-07T04:18:06.053Z] : Command:      C:\nvm4w\nodejs\node.exe C:\Users\welcome\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
-[debug] [2025-12-07T04:18:06.054Z] : CLI Version:  1.21.0
-[debug] [2025-12-07T04:18:06.054Z] : Platform:     win32
-[debug] [2025-12-07T04:18:06.054Z] : Node Version: v24.4.1
-[debug] [2025-12-07T04:18:06.054Z] : Time:         Sun Dec 07 2025 09:48:06 GMT+0530 (India Standard Time)
-[debug] [2025-12-07T04:18:06.054Z] : ----------------------------------------------------------------------
-[debug] [2025-12-07T04:18:06.054Z] : 
-[debug] [2025-12-07T04:18:18.376Z] : > authorizing via signed-in user option
-[debug] [2025-12-07T04:18:18.380Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
-[debug] [2025-12-07T04:18:18.551Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004 
-
-[debug] [2025-12-07T04:18:22.106Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 04:18:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-07T04:18:22.115Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/10593000000171004/environment 
-
-[debug] [2025-12-07T04:18:22.515Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 04:18:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-07T04:18:33.886Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
-[debug] [2025-12-07T04:18:33.936Z] : No basic functions to add
-[info] [2025-12-07T04:18:33.943Z] : 
-[info] [2025-12-07T04:18:33.944Z] : Executing AppSail [PRESERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-07T04:18:33.945Z] : Executing command > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-07T04:18:33.946Z] : > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
-[info] [2025-12-07T04:22:19.663Z] : 
-[info] [2025-12-07T04:22:19.664Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
-[info] [2025-12-07T04:22:19.666Z] : i photo-store-app: http://localhost:3001
-[info] [2025-12-07T04:22:19.667Z] : 
-[debug] [2025-12-07T04:38:35.355Z] : > refreshing access token <
-[debug] [2025-12-07T04:38:35.362Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
-<request body omitted>
-
-[debug] [2025-12-07T04:38:36.772Z] : <<<< HTTP RESPONSE : 200
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 04:38:29 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[info] [2025-12-07T04:51:35.056Z] : Shutting down server
-[info] [2025-12-07T04:51:35.063Z] : 
-[info] [2025-12-07T04:51:35.064Z] : √ Shutdown complete
-[debug] [2025-12-07T04:51:35.067Z] : NO ERRORS REGISTERED
-[debug] [2025-12-07T04:51:35.068Z] : EXEC ENDED with event: serve, message: success
-[debug] [2025-12-07T04:51:35.069Z] : TOTAL DURATION OF COMMAND EXEC : 1997001
-[info] [2025-12-07T04:51:35.135Z] : 
-[info] [2025-12-07T04:51:35.136Z] : Executing AppSail [POSTSERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
-[debug] [2025-12-07T04:51:35.137Z] : Executing command > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[info] [2025-12-07T04:51:35.137Z] : > node ./scripts/filesHelper.js -d ./build/server && node ./scripts/filesHelper.js -d ./build/photo-store-app
-[debug] [2025-12-07T04:51:36.136Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
-<request body omitted>
-
-[debug] [2025-12-07T04:51:41.168Z] : <<<< HTTP RESPONSE : 400
-Response Headers: {"server":"ZGS","date":"Sun, 07 Dec 2025 04:51:33 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
-
-[debug] [2025-12-07T04:51:41.170Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
-
-[debug] [2025-12-07T04:51:41.182Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-12-15T18:52:41.653Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-12-15T18:52:41.679Z] : No basic functions to add
+[info] [2025-12-15T18:52:41.682Z] : 
+[info] [2025-12-15T18:52:41.682Z] : Executing AppSail [PRESERVE] [photo-store-app] script in C:\Users\welcome\OneDrive\Desktop\PhotoStoreApp
+[debug] [2025-12-15T18:52:41.683Z] : Executing command > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
+[info] [2025-12-15T18:52:41.683Z] : > cd photo-store-app && npm run build && cd .. && cd server && npm install && cd .. && cd scripts && npm install && cd .. && node ./scripts/filesHelper.js -c ./server/ ./build/server/ && node ./scripts/filesHelper.js -c ./photo-store-app/build/ ./build/photo-store-app/
+[info] [2025-12-15T18:53:39.101Z] : 
+[info] [2025-12-15T18:53:39.102Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-12-15T18:53:39.103Z] : i photo-store-app: http://localhost:3001
+[info] [2025-12-15T18:53:39.104Z] : 
